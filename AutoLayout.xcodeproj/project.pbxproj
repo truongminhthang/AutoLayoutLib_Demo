@@ -12,6 +12,7 @@
 		8422D5241D8683F600991C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422D5221D8683F600991C86 /* Main.storyboard */; };
 		8422D5261D8683F600991C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8422D5251D8683F600991C86 /* Assets.xcassets */; };
 		8422D5291D8683F600991C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422D5271D8683F600991C86 /* LaunchScreen.storyboard */; };
+		8422D5311D86872B00991C86 /* Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422D5301D86872B00991C86 /* Autolayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8422D5251D8683F600991C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8422D5281D8683F600991C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8422D52A1D8683F600991C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8422D5301D86872B00991C86 /* Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autolayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8422D51E1D8683F600991C86 /* AppDelegate.swift */,
 				8422D5201D8683F600991C86 /* ViewController.swift */,
+				8422D5301D86872B00991C86 /* Autolayout.swift */,
 				8422D5221D8683F600991C86 /* Main.storyboard */,
 				8422D5251D8683F600991C86 /* Assets.xcassets */,
 				8422D5271D8683F600991C86 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				8422D5211D8683F600991C86 /* ViewController.swift in Sources */,
 				8422D51F1D8683F600991C86 /* AppDelegate.swift in Sources */,
+				8422D5311D86872B00991C86 /* Autolayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -300,6 +304,7 @@
 				8422D52F1D8683F600991C86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
